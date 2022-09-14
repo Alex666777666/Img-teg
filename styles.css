@@ -25,9 +25,9 @@
   margin-block: auto;
   text-transform: lowercase;
 }
-/*.gallery {
+.gallery {
   display: flex;
-}*/
+}
 .blur {
   filter: blur(4px);
 }
