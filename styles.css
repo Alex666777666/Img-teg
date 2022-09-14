@@ -1,36 +1,36 @@
 * {
   box-sizing: border-box;
 }
-.image-container {
-  margin: 50px auto 50px;
 
+.main-img {
   max-width: 100%;
   border-radius: 20px;
-  display: flex;
+  display: block;
+  margin: 50px auto;
 }
-.card {
-  margin: 16px;
 
-  display: flex;
-}
-.opacity-filter {
-  filter: opacity(50%);
-}
-.capation {
-  line-height: 30px;
-  text-align: center;
-  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
-  display: grid;
-  height: 255px;
-  margin-block: auto;
-  text-transform: lowercase;
-}
 .gallery {
   display: flex;
 }
-.blur {
+
+figcaption {
+  line-height: 30px;
+  text-align: center;
+}
+
+figure {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+.card-opacity {
+  filter: opacity(50%);
+}
+
+.card-blur {
   filter: blur(4px);
 }
-.invert {
+
+.card-invert {
   filter: invert(100%);
 }
