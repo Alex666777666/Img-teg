@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Специфичность</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -10,28 +10,43 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+
   <body>
-    <div>
-  <img class="image-container" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="Land with tree">  
-  <div class="gallery"></div>
-  <figure class="card">
-    <figcaption class="capation">
-      <img class="opacity-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Opacity filter">
-    Opacity 
-    </figcaption>
-    <figure class="card">
-    <figcaption class="capation">
-      <img class="blur" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Blur filter">
-    Blur
-    </figcaption>
-  </figure>
-   <figure class="card">
-    <figcaption class="capation">
-      <img class="invert" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Invert filter">
-    Invert
-    </figcaption>
-  </figure>
-  </div>
-</body>
-  
+    <div class="image-container">
+      <img
+        class="main-img"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
+        alt="Land and tree"
+      />
+    </div>
+
+    <div class="gallery">
+      <figure>
+        <img
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="lake and trees"
+          class="card-opacity"
+        />
+        <figcaption>Opacity</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="lake and trees"
+          class="card-blur"
+        />
+        <figcaption>Blur</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="lake and trees"
+          class="card-invert"
+        />
+        <figcaption>Invert</figcaption>
+      </figure>
+    </div>
+  </body>
 </html>
